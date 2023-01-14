@@ -25,7 +25,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* border: 10px rgb(177, 177, 177) solid;
+  position: relative;
+  /* border: none;
   border-radius: 10px; */
 }
 .headline {
@@ -195,9 +196,9 @@ body {
   margin-left: 0px;
   float: left;
 }
-.match-team {
-  /* font-size: 18px; */
-}
+/* .match-team {
+  font-size: 18px;
+} */
 .match-link {
   color: aliceblue;
   text-decoration: none;
@@ -205,6 +206,28 @@ body {
 .match-link:hover {
   color: blue;
 }
-.match-vanue {
-  /* font-size: 16px; */
+/* .match-vanue {
+  font-size: 16px;
+}  */
+.point-table-button {
+  position: absolute;
+  top: 46px;
+  left: 590px;
+  background-color: #5d25b685;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  width: 150px;
+  height: 28px;
+  font-size: 130%;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  float: none;
+}
+.button-link {
+  text-decoration: none;
+  font-family: fantasy;
+  color: white;
 }
