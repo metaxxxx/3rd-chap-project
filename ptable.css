@@ -1,0 +1,12 @@
+.headline {
+  text-align: center;
+}
+body {
+  align-items: center;
+}
+table {
+  border: 5px solid rgb(0, 0, 0);
+}
+td {
+  border: 2px solid rgba(27, 184, 176, 0.705);
+}
