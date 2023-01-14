@@ -1,14 +1,26 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */
 body {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   height: 1000px;
   width: 100%;
   letter-spacing: 1px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(116, 52, 47, 0.5),
+      rgba(0, 0, 255, 0.5)
+    ),
+    url("bg1.webp");
+  /* border: 10px rgb(177, 177, 177) solid;
+  border-radius: 10px; */
 }
 .headline {
   text-align: center;
-  background-color: rgb(236, 232, 232);
+  background-color: rgba(236, 232, 232, 0.315);
 }
 .First-dev {
   width: 31%;
@@ -21,6 +33,7 @@ body {
   margin: 10px;
   margin-left: 0px;
   float: left;
+  /* background: linear-gradient(to bottom right, #696981 10%, #7a4716 100%); */
 }
 .second-dev {
   width: 31%;
@@ -79,6 +92,85 @@ body {
   width: 31%;
   height: 25%;
   background-color: rgba(25, 37, 18, 0.774);
+  text-align: center;
+  border: 3px rgb(102, 101, 102) solid;
+  border-radius: 20px;
+  color: rgb(245, 240, 240);
+
+  margin: 10px;
+  margin-left: 0px;
+  float: left;
+}
+
+.seventh-dev {
+  width: 31%;
+  height: 25%;
+  background-color: rgba(60, 99, 170, 0.774);
+  text-align: center;
+  border: 3px rgb(102, 101, 102) solid;
+  border-radius: 20px;
+  color: rgb(245, 240, 240);
+
+  margin: 10px;
+  margin-left: 0px;
+  float: left;
+}
+.eighth-dev {
+  width: 31%;
+  height: 25%;
+  background-color: rgba(39, 168, 147, 0.774);
+  text-align: center;
+  border: 3px rgb(102, 101, 102) solid;
+  border-radius: 20px;
+  color: rgb(245, 240, 240);
+
+  margin: 10px;
+  margin-left: 0px;
+  float: left;
+}
+.ninth-dev {
+  width: 31%;
+  height: 25%;
+  background-color: rgba(126, 116, 25, 0.774);
+  text-align: center;
+  border: 3px rgb(102, 101, 102) solid;
+  border-radius: 20px;
+  color: rgb(245, 240, 240);
+
+  margin: 10px;
+  margin-left: 0px;
+  float: left;
+}
+.tenth-dev {
+  width: 31%;
+  height: 25%;
+  background-color: rgba(143, 50, 13, 0.781);
+  text-align: center;
+  border: 3px rgb(102, 101, 102) solid;
+  border-radius: 20px;
+  color: rgb(245, 240, 240);
+
+  margin: 10px;
+  margin-left: 0px;
+  float: left;
+}
+.eleventh-dev {
+  width: 31%;
+  height: 25%;
+  background-color: rgba(86, 45, 180, 0.774);
+  text-align: center;
+  border: 3px rgb(102, 101, 102) solid;
+  border-radius: 20px;
+  color: rgb(245, 240, 240);
+
+  margin: 10px;
+  margin-left: 0px;
+  float: left;
+}
+.twelfth-dev {
+  width: 31%;
+  height: 25%;
+  background-color: rgba(14, 119, 37, 0.774);
   text-align: center;
   border: 3px rgb(102, 101, 102) solid;
   border-radius: 20px;
