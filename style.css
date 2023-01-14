@@ -3,7 +3,7 @@
   padding: 0px;
 } */
 body {
-  /* background-color: rgb(255, 255, 255); */
+  background-color: rgb(233, 233, 233);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   height: 1000px;
@@ -11,10 +11,11 @@ body {
   letter-spacing: 1px;
   background-image: linear-gradient(
       to bottom,
-      rgba(116, 52, 47, 0.5),
+      rgba(218, 215, 215, 0.5),
       rgba(0, 0, 255, 0.5)
     ),
-    url("bg1.webp");
+    url("bg2.jpg");
+  background-size: 110%;
   /* border: 10px rgb(177, 177, 177) solid;
   border-radius: 10px; */
 }
@@ -33,12 +34,12 @@ body {
   margin: 10px;
   margin-left: 0px;
   float: left;
-  /* background: linear-gradient(to bottom right, #696981 10%, #7a4716 100%); */
+  background: linear-gradient(to bottom right, #ababdaa1 30%, #0d7ecaa6 70%);
 }
 .second-dev {
   width: 31%;
   height: 25%;
-  background-color: rgba(24, 73, 129, 0.774);
+  /* background-color: rgba(24, 73, 129, 0.774); */
   text-align: center;
   border: 3px rgb(102, 101, 102) solid;
   border-radius: 20px;
@@ -47,6 +48,7 @@ body {
   margin: 10px;
   margin-left: 0px;
   float: left;
+  background: linear-gradient(to bottom right, #7c6e81a1 30%, #060468a6 70%);
 }
 .third-dev {
   width: 31%;
@@ -60,6 +62,7 @@ body {
   margin: 10px;
   margin-left: 0px;
   float: left;
+  background: linear-gradient(to bottom right, #98b395a1 30%, #07cc9ba6 70%);
 }
 
 .fourth-dev {
@@ -74,6 +77,7 @@ body {
   margin: 10px;
   margin-left: 0px;
   float: left;
+  background: linear-gradient(to bottom right, #bb8c8ca1 30%, #eb0707a6 70%);
 }
 .fifth-dev {
   width: 31%;
@@ -87,6 +91,7 @@ body {
   margin: 10px;
   margin-left: 0px;
   float: left;
+  background: linear-gradient(to bottom right, #adb67da1 30%, #5c9204a6 70%);
 }
 .sixth-dev {
   width: 31%;
@@ -100,6 +105,7 @@ body {
   margin: 10px;
   margin-left: 0px;
   float: left;
+  background: linear-gradient(to bottom right, #c6c3d3a1 30%, #b00ce2a6 70%);
 }
 
 .seventh-dev {
