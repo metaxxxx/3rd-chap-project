@@ -2,7 +2,13 @@
   margin: 0px;
   padding: 0px;
 } */
+/* .container {
+  margin-left: auto;
+  margin-right: auto;
+} */
 body {
+  font-size: 18px;
+  font-size: 1.3vw;
   background-color: rgb(233, 233, 233);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -15,10 +21,10 @@ body {
       rgba(0, 0, 255, 0.5)
     ),
     url("bg2.jpg");
-  background-size: 110%;
+
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   /* border: 10px rgb(177, 177, 177) solid;
   border-radius: 10px; */
 }
@@ -190,7 +196,7 @@ body {
   float: left;
 }
 .match-team {
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 .match-link {
   color: aliceblue;
@@ -200,5 +206,5 @@ body {
   color: blue;
 }
 .match-vanue {
-  font-size: 16px;
+  /* font-size: 16px; */
 }
