@@ -1,12 +1,19 @@
 .headline {
-  text-align: center;
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
 }
 body {
   align-items: center;
+  /* width: 550px;
+  height: 700px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 table {
   border: 5px solid rgb(0, 0, 0);
 }
 td {
   border: 2px solid rgba(27, 184, 176, 0.705);
+  background-color: rgba(0, 255, 255, 0.479);
 }

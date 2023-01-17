@@ -6,6 +6,9 @@
   margin-left: auto;
   margin-right: auto;
 } */
+* {
+  box-sizing: border-box;
+}
 body {
   font-size: 18px;
   font-size: 1.3vw;
@@ -209,7 +212,6 @@ body {
 /* .match-vanue {
   font-size: 16px;
 }  */
-
 .point-table-button {
   position: absolute;
   top: 46px;
@@ -231,4 +233,9 @@ body {
   text-decoration: none;
   font-family: fantasy;
   color: white;
+}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
 }
